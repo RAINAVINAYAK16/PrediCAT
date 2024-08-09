@@ -119,7 +119,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 40
+=======
+  controlID: 99
+>>>>>>> f4ef713235a644e31be8c9427a1ddf4b7141067f
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,8 +193,13 @@ MonoBehaviour:
     y: 0
     width: 316.66666
     height: 394.66666
+<<<<<<< HEAD
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> f4ef713235a644e31be8c9427a1ddf4b7141067f
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -269,8 +278,13 @@ MonoBehaviour:
     y: 0
     width: 302
     height: 579.3333
+<<<<<<< HEAD
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> f4ef713235a644e31be8c9427a1ddf4b7141067f
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -355,7 +369,11 @@ MonoBehaviour:
       y: 21
       width: 659.3334
       height: 352.66666
+<<<<<<< HEAD
     m_Scale: {x: 0.99999994, y: 0.99999994}
+=======
+    m_Scale: {x: 0.9999999, y: 0.99999994}
+>>>>>>> f4ef713235a644e31be8c9427a1ddf4b7141067f
     m_Translation: {x: 329.6667, y: 176.33333}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -414,7 +432,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: dcf6ffff
+=======
+      m_ExpandedIDs: 14fbffff
+>>>>>>> f4ef713235a644e31be8c9427a1ddf4b7141067f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -972,14 +994,24 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: C:\Users\sonit\OneDrive\Desktop\Work\Coding\PrediCAT\simulation\PrediCAT
+=======
+  m_LastProjectPath: C:\Users\sonit\OneDrive\Desktop\Work\Unity\Projects\PrediCAT
+>>>>>>> f4ef713235a644e31be8c9427a1ddf4b7141067f
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 465a0000
     m_LastClickedID: 23110
     m_ExpandedIDs: 00000000465a000000ca9a3b
+=======
+    m_SelectedIDs: 8c590000
+    m_LastClickedID: 22924
+    m_ExpandedIDs: 000000008c59000000ca9a3b
+>>>>>>> f4ef713235a644e31be8c9427a1ddf4b7141067f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1007,7 +1039,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000465a0000
+=======
+    m_ExpandedIDs: 
+>>>>>>> f4ef713235a644e31be8c9427a1ddf4b7141067f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
