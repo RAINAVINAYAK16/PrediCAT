@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-C:\Users\sonit\OneDrive\Desktop\Work\Coding\PrediCAT\simulation\PrediCAT
-=======
-C:\Users\sonit\OneDrive\Desktop\Work\Unity\Projects\PrediCAT
->>>>>>> f4ef713235a644e31be8c9427a1ddf4b7141067f
