@@ -68,7 +68,7 @@ const LandingPage = () => {
         >
           {" "}
           <Link
-            to="/login"
+            to="/signup"
             className="hover:underline hover:decoration-yellow-400 hover:font-bold"
           >
             Signup

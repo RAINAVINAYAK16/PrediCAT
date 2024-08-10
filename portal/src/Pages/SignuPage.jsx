@@ -8,7 +8,7 @@ function SignupPage() {
     username: "",
     email: "",
     password: "",
-    confirmPassword: "",
+    confirm_password: "",
   });
 
   const handleChange = (e) => {
@@ -20,7 +20,7 @@ function SignupPage() {
     e.preventDefault();
 
     // Basic validation
-    if (credentials.password !== credentials.confirmPassword) {
+    if (credentials.password !== credentials.confirm_password) {
       console.error("Passwords do not match");
       return;
     }
@@ -30,17 +30,13 @@ function SignupPage() {
     try {
       const response = await fetch("http://localhost:5000/api/auth/signup", {
         method: "POST",
-        body: JSON.stringify({
-          username: credentials.username,
-          email: credentials.email,
-          password: credentials.password,
-        }),
+        body: JSON.stringify(credentials),
         headers: {
           "Content-Type": "application/json",
         },
       });
       if (response.ok) {
-        nav("/");
+        nav("/dashboard");
       } else {
         console.error("Signup failed");
       }
@@ -51,12 +47,12 @@ function SignupPage() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center"
-    style={{
-      backgroundImage: `url(${watermarkbg})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-    }}>
+      style={{
+        backgroundImage: `url(${watermarkbg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}>
       <div className="w-full max-w-md">
         <div className="bg-white shadow-md rounded-lg px-8 pt-6 pb-8 mb-4 border border-gray-300">
           <h2 className="text-2xl font-bold mb-6 text-center">SIGN UP</h2>
@@ -100,9 +96,9 @@ function SignupPage() {
             <div className="mb-6">
               <input
                 type="password"
-                id="confirmPassword"
-                name="confirmPassword"
-                value={credentials.confirmPassword}
+                id="confirm_password"
+                name="confirm_password"
+                value={credentials.confirm_password}
                 onChange={handleChange}
                 placeholder="Confirm Password"
                 required

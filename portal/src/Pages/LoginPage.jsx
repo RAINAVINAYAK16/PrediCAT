@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import watermarkbg from "../assets/images/watermarkbg.png";
+
 function LoginPage() {
   const nav = useNavigate();
   const [credentials, setCredentials] = useState({
@@ -26,7 +27,7 @@ function LoginPage() {
         },
       });
       if (response.ok) {
-        nav("/");
+        nav("/dashboard");
       } else {
         console.error("Login failed");
       }
@@ -36,13 +37,15 @@ function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center"
-    style={{
-      backgroundImage: `url(${watermarkbg})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-    }}>
+    <div
+      className="min-h-screen bg-gray-100 flex flex-col justify-center items-center"
+      style={{
+        backgroundImage: `url(${watermarkbg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="w-full max-w-md">
         <div className="bg-white shadow-md rounded-lg px-8 pt-6 pb-8 mb-4 border border-gray-300">
           <h2 className="text-2xl font-bold mb-6 text-center">LOGIN</h2>

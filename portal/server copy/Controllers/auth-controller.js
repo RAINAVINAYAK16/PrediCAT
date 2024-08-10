@@ -10,7 +10,7 @@ const home = async (req, res) => {
   }
 };
 
-const register = async (req, res) => {
+const signup = async (req, res) => {
   try {
     console.log("Request body:", req.body);
     const { username, email, password, confirm_password } = req.body;
@@ -82,4 +82,4 @@ const login = async (req, res) => {
   }
 };
 
-module.exports = { home, register, login };
+module.exports = { home, signup, login };
